@@ -3,26 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Center Flex</title>
-    <style>
-        .container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: aquamarine;
-            height: 600px;
-        }
-        .box{
-            background-color: orangered;
-            font-size: 4em;
-            height: 300px;
-            width: 300px;
-        }
-    </style>
+    <title>Banner</title>
+    <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
-     <header>
+    <header>
         <nav>
             <ul>
                 <!-- li*6>a -->
@@ -35,10 +21,17 @@
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <div class="box">
-            Box
-        </div>
-    </div>
+    <main>
+        <section class="hero-container">
+            <div>
+                <h1>Welocome to My Website</h1>
+                <p>I share travel stories, remote work tips, and inspiration for anyone dreaming of a creative life on the road.</p>
+                <button>Read My Blog</button>
+            </div>
+            <div>
+                <img src="images/coding-with-nature.jpg" alt="">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
